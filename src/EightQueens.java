@@ -1,10 +1,10 @@
-public class EightQueens {
+public class OitoRainhas {
     private static final int TAMANHO_MAXIMO_LINHA = 8; // Tamanho do tabuleiro
     private int[] tabuleiro = new int[TAMANHO_MAXIMO_LINHA]; // Tabuleiro onde o índice é a coluna e o valor é a linha
     private int solucoesPossiveis = 0; // Contador de soluções
 
     public static void main(String[] args) {
-        EightQueens eq = new EightQueens();
+        OitoRainhas eq = new OitoRainhas();
         eq.posicionarRainha(0);
     }
 
